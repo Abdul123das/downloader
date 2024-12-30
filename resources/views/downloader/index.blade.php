@@ -1,7 +1,4 @@
 @extends('downloader.layout')
-
-
-
 @section('content')
     <style>
         body {
@@ -56,11 +53,10 @@
     <div class="container">
         {{--Testing Purpose youtube link--}}
         {{--https://youtu.be/GpcMasRWUhI?si=Mw_pZhG3N8ayv8uG--}}
-        <h1>YouTube Video Viewer & MP4 Download</h1>
+        <h3>One click to download this Video</h3>
         <p>Paste a YouTube link below to view the video and get an MP4 download link:</p>
         <input type="text" id="youtubeLink" placeholder="Paste YouTube link here">
         <button onclick="processYouTubeLink()">Get Video</button>
-
         <div id="videoContainer"></div>
         <div id="downloadLink"></div>
     </div>
